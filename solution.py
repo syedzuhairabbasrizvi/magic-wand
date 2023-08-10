@@ -40,3 +40,5 @@ color=input()
 # Find the largest possible selection
 largest_selection = magic_wand(image, color)
 print(largest_selection)
+
+# An example of input would be: 5, RRGGB, RRGGB, RGGBB, RGBBG, RRRRR, G. So it is a list of strings, like a matrix.The code will process these separate inputs and output 7 as the answer, since the area with the most G pixels is 7. 
